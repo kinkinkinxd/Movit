@@ -6,7 +6,6 @@ class GenreWrapper: Object {
     var parentMovie = LinkingObjects(fromType: MovieModel.self, property: "genreList")
 }
 class MovieModel: Object {
-//    @objc dynamic var id: Int = 0
     @objc dynamic var title: String = ""
     @objc dynamic var overview: String = ""
     @objc dynamic var poster_path: String = ""

@@ -177,11 +177,6 @@ extension MovieViewController: MovieManagerDelegate {
         }
     }
     
-//    func didUpdateMovie(_ movieManager: MovieManager, movie: MovieModel) {
-////            self.movie = movie
-//        }
-    
-    
     func didFailWithError(error: Error) {
         print(error)
     }

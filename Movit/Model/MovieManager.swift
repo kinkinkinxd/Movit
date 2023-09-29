@@ -4,7 +4,6 @@ import Foundation
 protocol MovieManagerDelegate {
     func didUpdateMovie(_ movieManager: MovieManager, movies: [MovieModel], section: String)
     func didFailWithError(error: Error)
-//    func didUpdateMovie(_ movieManager: MovieManager, movie: MovieModel)
 }
 
 struct MovieManager {
@@ -14,13 +13,10 @@ struct MovieManager {
     let upcomingUrl = "https://api.themoviedb.org/3/movie/upcoming?language=en-US"
     let movieIDUrl = "https://api.themoviedb.org/3/movie/"
     
-    let apiKey = "&api_key=" + "0cf52042cb11faab744bfbd7971b8f41"
+    let apiKey = "&api_key=" + "Add your API here"
     var delegate: MovieManagerDelegate?
     
-//    func fetchMovieByID(id: String) {
-//        let urlString = movieIDUrl + id + apiKey
-//
-//    }
+
     
     func fetchPopularMovie() {
         let urlString = popularUrl + apiKey

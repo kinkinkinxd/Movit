@@ -1,10 +1,3 @@
-//
-//  GenreCollectionViewCell.swift
-//  Movit
-//
-//  Created by กิตติธัช อิงคสมภพ on 24/9/2566 BE.
-//
-
 import UIKit
 
 class GenreCollectionViewCell: UICollectionViewCell {
